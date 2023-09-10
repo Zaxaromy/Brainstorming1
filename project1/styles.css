@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: 'Domine', sans-serif;
+    background-color: #595A7B;
+    color: #221C2A;
+    text-align: center;
+}
+
+#image-bg {
+    width:100%;
+    height:350px;
+    border-top: 3px solid #5B5366;
+    border-bottom: 3px solid #5B5366;
+    object-fit:cover;
+    position:relative;
+}
+
+.center-text {
+    position: absolute;
+    text-align: center;
+    background-color: #A98768;
+    border-radius: 5px;
+}
+
+#center-text {
+    top:8.5%;
+    left:840px;
+    padding: 0px 15px 0px 15px;
+}
+
+#center-text1 {
+    top: 18%;
+    left:310px;
+    padding: 0px 10px 0px 10px;
+}
+
+.container {
+    display: flex;
+    margin-left: 150px;
+    justify-content: center;
+    text-shadow: 0.5px 0 0px black;
+}
+
+.images-bg {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 6px double #221C2A;
+    background-color: #302024;
+    margin: 5px;
+}
+
+.text-bg {
+    text-shadow: 0.5px 0 0px black;
+}
+
+.card {
+    width: 400px;
+    height: 175px;
+    margin: 10px auto auto;
+    padding: 0 20px 20px 20px;
+    border-radius: 4%;
+    display: flex;
+    justify-content: space-between;
+    background: #5B5366;
+    border-bottom: 3px solid;
+    font-size: 80%;
+}
+
+.avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    text-align: center;
+    border: 3px solid;
+    margin-top:27.5px;
+    margin-bottom: 20px;
+}
+
+.text {
+    padding-left: 20px;
+}
+
+#name {
+    text-decoration: underline;
+}
