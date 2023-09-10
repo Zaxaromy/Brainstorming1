@@ -1,0 +1,96 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 170px;
+    height: 150px;
+}
+
+.text {
+    margin: px;
+    padding: px 0;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #fb8500;
+    color: #023047;
+    border-radius:5px;
+    border: groove 3px #8ecae6;
+    border-bottom: 6px solid #ffb703;
+    border-left: 6px solid #ffb703;
+    text-shadow: -1px 0 #219ebc, 0 1px #219ebc, 1px 0 #8ecae6, 0 -1px #8ecae6;
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+img {
+    border: 3px solid #023047;
+    border-radius: 3px;
+}
+
+h3:hover {
+    background-color: #ffb703;
+    animation-name: hover1;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+}
+
+@keyframes hover1 {
+    from{background-color: #ffb703;}
+    to{background-color: #fb8500;}
+}
+
+h4:hover {
+    background-color: #ffb703;
+    animation-name: hover2;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+}
+
+@keyframes hover2 {
+    from{background-color: #ffb703}
+    to{background-color: #fb8500}
+}
+
+p:hover{
+    background-color: #ffb703;
+    animation-name: hover3;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+}
+
+@keyframes hover3 {
+    from{background-color: #ffb703}
+    to{background-color: #fb8500}
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows       
+- hover effects  
+- animations     
+*/

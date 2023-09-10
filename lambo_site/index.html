@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hello Bulma!</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+		<script src="https://kit.fontawesome.com/2621c8151b.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="styles/debug.css">
+
+		<link rel="stylesheet" href="styles/helpers.css">
+		<link rel="stylesheet" href="styles/grid.css">
+
+		<style>
+			body {
+				background-color: black;
+			}
+			.container {
+				display: grid;
+				grid-template-columns: repeat(4, 1fr);
+    			grid-template-rows: 40px 40px;
+				grid-template-areas:
+				"a a a a"
+				"b c d e"
+			}
+			button {
+				grid-area:  e;
+			}
+			.txt {
+				grid-area: a;
+				padding-bottom: 10px;;
+			}
+			.txt1 {
+				grid-area:
+			}
+		</style>
+
+	</head>
+	<body>
+		
+		<section class="hero">
+
+			<div class="hero-body">
+
+				<div class="columns has-text-centered has-text-black">
+
+					<div class="column">
+						<figure class="image is-128x128">
+							<img src="images/nissan-brand-logo.jpeg">
+						</figure>
+					</div>
+
+					<div class="column">
+						test
+					</div>
+
+					<div class="column">
+						test
+					</div>
+					
+					<div class="column">
+						test
+					</div>
+
+					<div class="column">
+						test
+					</div>
+
+					<div class="column">
+						test
+					</div>
+
+					<div class="column">
+						test	
+					</div>
+
+					<div class="column">
+						test
+					</div>
+
+					<div class="column">
+						test
+					</div>
+
+					<div class="column">
+						<span class="icon has-text-black">
+							<i class="fa-sharp fa-solid fa-bars"></i>
+						</span>
+					</div>
+
+				</div>
+
+				<section class="section">
+					<div class="container has-text-centered">
+						<p class="">Tesla</p>
+						<p class="has-text-black has-text-weight-bold">Roadster</p>
+					</div>
+				</section>
+
+				<section class="section has-text-centered">
+					<div class="container">
+					<p class="txt">The quickest car in the world with record setting<br>acceleration, range and preformance</p>
+					<p class="txt1">1.9 s<br>0-60 mph</p>
+					<p class="txt2">250mph<br>Top Speed</p>
+					<p class="txt3">620mi<br>Mile Range</p>
+					<button class="button is-danger is-inverted is-rounded is-fullwidth is-outlined has-text-weight-bold">Reserve Now</button>
+				</div>
+				</section>
+
+			</div>
+
+		</section>
+
+	</body>
+</html>
